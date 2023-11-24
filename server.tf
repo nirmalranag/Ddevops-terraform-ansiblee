@@ -16,7 +16,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "raman-import"
 
   tags = {
-    Name = "Raman-DevOps-batch-server"
+    Name = "Nirmal-DevOps-batch-server"
     env = "Production"
     owner = "Raman Khanna"
   }
