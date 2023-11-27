@@ -11,9 +11,9 @@ provider "aws" {
 region = "ap-south-1"
 }
 resource "aws_instance" "myawsserver" {
-  ami = "ami-02a2af70a66af6dfb"
+  ami = "ami-0a7cf821b91bcccbc"
   instance_type = "t2.micro"
-  key_name = "raman-import"
+  key_name = "terraform-import"
 
   tags = {
     Name = "Nirmal-DevOps-batch-server"
